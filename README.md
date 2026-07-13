@@ -103,7 +103,7 @@ To become the AI-powered operating system for student accommodation and hostel m
 
 ## 👨‍💻 Developed By
 
-Your Name
+Vanshika Dalal
 
 B.Tech Student | Machine Learning Enthusiast
 
@@ -111,6 +111,6 @@ B.Tech Student | Machine Learning Enthusiast
 
 ## 📬 Contact
 
-Email: your-email@example.com
+Email: vanshikadalal1609@gmail.com
 
-GitHub: your-github-link
+GitHub: https://github.com/vanshikadalal1609/hostelmate-ai/edit/main/README.md
