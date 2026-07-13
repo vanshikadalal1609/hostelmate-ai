@@ -42,20 +42,25 @@ distance = st.slider(
     2
 )
 
-food = st.selectbox(
+food_option = st.selectbox(
     "Food Included?",
-    [0,1]
+    ["Yes", "No"]
 )
 
-wifi = st.selectbox(
-    "WiFi?",
-    [0,1]
+wifi_option = st.selectbox(
+    "WiFi Available?",
+    ["Yes", "No"]
 )
 
-ac = st.selectbox(
-    "AC?",
-    [0,1]
+ac_option = st.selectbox(
+    "AC Available?",
+    ["Yes", "No"]
 )
+
+# Convert 'Yes'/'No' options to 1/0 integers
+food = 1 if food_option == "Yes" else 0
+wifi = 1 if wifi_option == "Yes" else 0
+ac = 1 if ac_option == "Yes" else 0
 
 if st.button(
         "Find PG"): # user is already defined in the local scope, so updating the variable name
