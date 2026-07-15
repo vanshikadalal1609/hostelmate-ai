@@ -1,116 +1,107 @@
-# 🏠 HostelMate AI
+# 🏠 Roomzy
 
-## 📌 Overview
-HostelMate AI is an AI-powered student accommodation platform that helps students find suitable PGs and rental accommodations near their college.
+> Discover, compare, and find the perfect PG or hostel near your college.
 
-The platform uses machine learning to provide personalized recommendations based on student preferences such as:
-
-- Budget
-- Distance from college
-- Food availability
-- WiFi availability
-- AC facilities
-
-The project also aims to help students find compatible roommates and simplify the process of finding accommodation.
+Roomzy is a student-focused accommodation platform that helps students find Paying Guests (PGs), hostels, and rental rooms near universities and colleges. The platform provides smart search, filtering, recommendations, maps, and a modern user experience to simplify the student housing process.
 
 ---
 
 ## 🚀 Features
 
-### 🔍 Smart PG Finder
-- Search PGs based on preferences
-- Personalized recommendations
+### 🔍 Smart PG Search
+- Search PGs by name and location
+- Filter by:
+  - Budget
+  - Gender preference
+  - Amenities (WiFi, AC, Food, etc.)
 
-### 🤖 AI Recommendation Engine
-Uses Machine Learning (K-Nearest Neighbors) to recommend the best PGs.
+### 📍 Distance from College
+- Shows distance between the college and the PG.
+- Google Maps integration for directions.
 
-### ⭐ Reviews and Ratings
-- Student reviews
-- PG ratings
-- Security information
+### 🏠 Detailed PG Listings
+- Rent information
+- Address
+- Available amenities
+- Gender preferences
+- Distance from campus
 
-### ❤️ Save Favorites
-Students can save their preferred PGs.
+### ⭐ Reviews & Ratings
+- Students can review PGs.
+- Ratings and feedback system.
 
-### 🤝 Roommate Matching (Upcoming)
-Find compatible roommates based on lifestyle preferences.
+### ❤️ Saved Listings
+- Save your favorite PGs for later.
 
-### 📍 Maps Integration (Upcoming)
-View PG locations on an interactive map.
+### 🤖 AI-Powered Recommendations
+- Recommends suitable PGs based on:
+  - Budget
+  - Amenities
+  - Preferences
+
+### 💬 Feedback System
+- Students can submit feedback directly through the website.
+
+### 📊 Dashboard & Analytics
+- Total listings
+- Average rent
+- Available amenities statistics
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Tech Stack
 
+## Frontend
+- Streamlit
+- HTML/CSS (Custom Styling)
+
+## Backend
 - Python
+
+## Data Processing
 - Pandas
 - NumPy
-- Scikit-Learn
-- Streamlit
-- Google Colab
-- GitHub
+
+## Maps & Geolocation
+- Geopy
+- Google Maps API (planned)
+
+## Data Storage
+- CSV
+- Supabase (planned)
+
+## AI & Machine Learning
+- Scikit-learn
+- Recommendation System
+- Gemini/OpenAI Integration (planned)
 
 ---
 
-## 🧠 Machine Learning Algorithm
-
-### K-Nearest Neighbors (KNN)
-The recommendation engine finds PGs similar to the student's preferences.
-
-Features used:
-
-- Rent
-- Distance from college
-- Food
-- WiFi
-- AC
-
----
-
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
-hostelmate-ai/
+roomzy/
 │
 ├── app.py
 ├── pg_data.csv
 ├── requirements.txt
-├── README.md
-└── images/
-```
-
----
-
-## 🎯 Problem Statement
-
-Students moving to a new city often struggle to:
-
-- Find affordable and trustworthy accommodation
-- Compare facilities
-- Avoid fake listings
-- Find compatible roommates
-
-HostelMate AI aims to solve these problems through an AI-powered recommendation platform.
-
----
-
-## 💡 Future Scope
-
-- Roommate Matching
-- Google Maps Integration
-- Verified Listings
-- Student Reviews
-- Hostel Management Dashboard
-- Smart Mess Prediction
-- Complaint Management System
-
----
-
-## 📈 Business Vision
-
-To become the AI-powered operating system for student accommodation and hostel management.
-
----
+│
+├── pages/
+│     ├── Search.py
+│     ├── Compare.py
+│     ├── Saved.py
+│     ├── Contact.py
+│     └── About.py
+│
+├── assets/
+│     ├── logo.png
+│     └── banner.png
+│
+└── utils/
+      ├── filters.py
+      ├── recommendations.py
+      ├── maps.py
+      └── data_processing.py
 
 ## 👩‍💻 Developed By
 
